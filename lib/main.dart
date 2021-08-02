@@ -58,7 +58,7 @@ class _DicePageState extends State<DicePage> {
           children: [
             Expanded(
               child: Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.all(15.0),
                 child: TextButton(
                   onPressed: changeDice,
                   child: Image.asset('images/dice$leftDice.png'),
@@ -67,7 +67,7 @@ class _DicePageState extends State<DicePage> {
             ),
             Expanded(
               child: Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.all(15.0),
                 child: TextButton(
                   onPressed: changeDice,
                   child: Image.asset('images/dice$rightDice.png'),
